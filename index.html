@@ -6,7 +6,8 @@
     <title></title>
     <link href="style.css" rel="stylesheet">
   </head>
-  <body>
+  <body onload="alert("");imageZoom("myimage", "myresult");">
+      
     <div class="img-zoom-container">
       <img id="myimage" src="img.jpg" width="100%" height="50%" alt="Girl">
       <div id="myresult" class="img-zoom-result">chargement en cours</div>
@@ -72,7 +73,6 @@
     } 
     </script>
     <script>
-      imageZoom("myimage", "myresult");
     </script>
 
   </body>
