@@ -35,6 +35,8 @@
       /* And also for touch screens: */
       lens.addEventListener("touchmove", moveLens);
       img.addEventListener("touchmove", moveLens);
+      alert("");
+      document.getElementById("myresult").innerHTML = ""
       function moveLens(e) {
         var pos, x, y;
         /* Prevent any other actions that may occur when moving over the image */
@@ -72,8 +74,6 @@
     </script>
     <script>
       imageZoom("myimage", "myresult");
-      alert("");
-      document.getElementById("myresult").innerHTML = ""
     </script>
 
   </body>
